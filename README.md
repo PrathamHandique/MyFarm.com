@@ -1,4 +1,8 @@
-<img width="1412" alt="image" src="https://github.com/user-attachments/assets/4410f118-e9da-4303-a5ed-13912c35d00f">
+<h1>Screens</h1>
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/6d915c51-de9a-4380-80e4-41e0fa2e1ea0"></br>
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/37767f62-74ec-4681-a24e-ae5e12df6ea0">
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
