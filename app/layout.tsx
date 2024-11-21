@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+
 import "./globals.css";
-// import "easymde/dist/easymde.min.css";
-// import { Toaster } from "@/components/ui/toaster";
+import "easymde/dist/easymde.min.css";
+
+import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/toaster";
 
 const workSans = localFont({
   src: [
@@ -37,8 +40,8 @@ const workSans = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/WorkSans-Black.ttf",
-      weight: "900",
+      path: "./fonts/WorkSans-Light.ttf",
+      weight: "300",
       style: "normal",
     },
     {
@@ -56,7 +59,7 @@ const workSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "YC Directory",
+  title: "Pitchify",
   description: "Pitch, Vote and Grow",
 };
 
@@ -67,9 +70,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={workSans.variable}>
+      <body className={cn(workSans.variable)}>
         {children}
-        {/* <Toaster /> */}
+        <Toaster />
       </body>
     </html>
   );
